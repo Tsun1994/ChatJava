@@ -14,7 +14,7 @@ public class AuthService {
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
         }
-    }
+    }//
 
     public static int addUser(String login, String pass, String nickname) {
         try {

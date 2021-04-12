@@ -23,4 +23,4 @@ public class RegistrationStage extends Stage {
             e.printStackTrace();
         }
     }
-}
+}//

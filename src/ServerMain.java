@@ -8,7 +8,7 @@ public class ServerMain {
     public static void main(String[] args) {
         Socket socket = null;
         ServerSocket server = null;
-
+//
 
         try {
             server = new ServerSocket( 6005);
