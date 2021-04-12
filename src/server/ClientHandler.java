@@ -123,7 +123,7 @@ public class ClientHandler {
                                     //BlackListDB.infoBlacklistBD(this.nickname, tokens[1]);
                                     //blacklistBD(this.nickname ,tokens[1]);
                                     sendMsg("You added " + tokens[1] + " to blacklist");
-                                }
+                                }//
                             } else {
                                 server.broadcastMessage(this, nickname +": " + str);
                             }

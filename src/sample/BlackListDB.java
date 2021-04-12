@@ -6,6 +6,7 @@ public class BlackListDB {
     private static Connection connection;
     private static Statement statement;
 
+    //проба пера подключения к базе данных черного списка, но не выходит сделать это в ConsoleServer
     public static void connect() {
         try {
             Class.forName("org.sqlite.JDBC");

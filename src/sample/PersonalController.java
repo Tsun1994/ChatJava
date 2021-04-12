@@ -19,7 +19,7 @@ public class PersonalController {
         if (!((MiniStage) btn.getScene().getWindow()).parentList.contains(textArea)) {
             ((MiniStage) btn.getScene().getWindow()).parentList.add(textArea);
             System.out.println("1");
-        }
+        }//
         DataOutputStream out = ((MiniStage) btn.getScene().getWindow()).out;
         String nickTo = ((MiniStage) btn.getScene().getWindow()).nickTo;
         try {

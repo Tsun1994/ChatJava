@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ClientMain {
     public static void main(String[] args) {
         Socket socket = null;
-
+// домашнее задание к 6 уроку
         try {
             socket = new Socket("localhost", 6005);
 

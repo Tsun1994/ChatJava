@@ -22,6 +22,7 @@ public class ConsoleServer {
         try {
             AuthService.connect();
 
+            //тест подключения был провальным, я похоже, не все понимаю. Дополнительно добавли, как выглядит база данных
             BlackListDB.connect();
             System.out.println("Result Blacklist " + BlackListDB.infoBlacklistBD("nick2"));
 

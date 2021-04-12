@@ -31,7 +31,7 @@ public class RegistrationController {
             DataOutputStream out = null;
             DataInputStream in = null;
             String result = null;
-
+//
             try {
                 socket = new Socket(Controller.ADDRESS, Controller.PORT);
                 out = new DataOutputStream(socket.getOutputStream());
